@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client", "client\Client.vcxproj", "{9D910A70-4993-40E0-BAD0-311C7E07EA73}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "networking", "networking\Sockets.vcxproj", "{A568697E-8CD1-44B6-A7E2-ED8A68557964}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tp1Server", "server\tp1Server.vcxproj", "{7EDFB9D9-CC3E-4982-9139-0A58EF887CCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D910A70-4993-40E0-BAD0-311C7E07EA73}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9D910A70-4993-40E0-BAD0-311C7E07EA73}.Debug|Win32.Build.0 = Debug|Win32
+		{9D910A70-4993-40E0-BAD0-311C7E07EA73}.Release|Win32.ActiveCfg = Release|Win32
+		{9D910A70-4993-40E0-BAD0-311C7E07EA73}.Release|Win32.Build.0 = Release|Win32
+		{A568697E-8CD1-44B6-A7E2-ED8A68557964}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A568697E-8CD1-44B6-A7E2-ED8A68557964}.Debug|Win32.Build.0 = Debug|Win32
+		{A568697E-8CD1-44B6-A7E2-ED8A68557964}.Release|Win32.ActiveCfg = Release|Win32
+		{A568697E-8CD1-44B6-A7E2-ED8A68557964}.Release|Win32.Build.0 = Release|Win32
+		{7EDFB9D9-CC3E-4982-9139-0A58EF887CCB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7EDFB9D9-CC3E-4982-9139-0A58EF887CCB}.Debug|Win32.Build.0 = Debug|Win32
+		{7EDFB9D9-CC3E-4982-9139-0A58EF887CCB}.Release|Win32.ActiveCfg = Release|Win32
+		{7EDFB9D9-CC3E-4982-9139-0A58EF887CCB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
